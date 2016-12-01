@@ -43,4 +43,4 @@ var ee2 = new MyEE2();
 
 ee1.on('x', function() {});
 
-assert.equal(ee2.listenerCount('x'), 0);
+assert.strictEqual(ee2.listenerCount('x'), 0);
